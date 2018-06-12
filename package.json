@@ -1,6 +1,6 @@
 {
   "name": "goodapp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a good APP project scaffolding，To reduce the development efficiency of app，I think it's good.",
   "main": "index.js",
   "scripts": {

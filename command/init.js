@@ -12,7 +12,7 @@ module.exports = () => {
       let projectName = yield prompt('Project name<默认为 myapp>: ')
     if (projectName.length == 0) { 
         projectName = 'myapp'
-        console.log(chalk.aqua('\n 没有输入项目名字，默认为myapp项目---老程---'));
+        console.log(chalk.red('\n 没有输入项目名字，默认为myapp项目---老程---'));
         // process.exit() 
     } 
     // gitUrl = config.tpl[tplName].url 
